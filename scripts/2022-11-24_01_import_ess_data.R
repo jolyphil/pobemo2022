@@ -13,7 +13,7 @@ recode_polpart <- function(var){
 
 # Load data --------------------------------------------------------------------
 
-ess <- read_dta("data_raw/ESS9DE.dta", 
+ess_raw <- read_dta("data_raw/ESS9DE.dta", 
                encoding = "latin1")
 
 # Political participation battery in the ESS -----------------------------------
@@ -80,9 +80,9 @@ ess <- ess_raw %>%
          agea = as.numeric(agea),
          region_de = if_else(
            region %in% c("DE3", "DE4", "DE8", "DED", "DEE", "DEG"), 
-           "East", 
+           "Ost", 
            "West"),
-         region_de = factor(region_de, levels = c("West", "East")),
+         region_de = factor(region_de, levels = c("West", "Ost")),
          hinctnta = case_when(hinctnta %in% 1:2 ~ "0 bis 1.560",
                               hinctnta %in% 3:4 ~ "1.561 bis 2.330",
                               hinctnta %in% 5:6 ~ "2.331 bis 3.200",
