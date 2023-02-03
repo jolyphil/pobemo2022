@@ -40,5 +40,19 @@
   
 ## Grafiken
 
-![Test](figures/2022-11-24_edu.png){width=60%} 
+11.24.2022: Politische Beteiligung nach Bildung und Einkommen
 
+  - Skript: [`scripts/2022-11-24_grafiken_cvm.R`](scripts/2022-11-24_grafiken_cvm.R)
+
+![Politische Beteiligung nach Bildung](figures/2022-11-24_edu.png)
+
+![Politische Beteiligung nach Einkommen](figures/2022-11-24_income.png)
+
+
+02.02.2023: Extra-repräsentative politische Beteiligung (Petitionen, Demonstrationen und Boykotts) nach Bildung und Einkommen
+
+  - Skript: [`scripts/2023-02-02_grafiken_protest.R`](scripts/2023-02-02_grafiken_protest.R)
+  
+![Protest nach Bildung](figures/2023-02-02_edu.png)
+
+![Protest nach Einkommen](figures/2023-02-02_income.png)
