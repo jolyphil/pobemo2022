@@ -142,8 +142,7 @@ data_plot_income |>
   geom_text(nudge_y = 0.1) + 
   labs(x = "Haushaltseinkommen",
        y = "Anzahl politischer Aktivitäten") +
-  theme_bw() +
-  theme(text = element_text(size = 15))
+  theme_bw() 
 
 ggsave("figures/2022-11-24_income.png")
 
