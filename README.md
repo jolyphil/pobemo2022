@@ -1,5 +1,7 @@
-# Daten vom Seminar "Politische Beteiligung und Mobilisierung"
+# Datenaufbereitung und Grafiken vom Seminar _Politische Beteiligung und Mobilisierung_
 
-## 24.11.2022
+## Datenaufbereitung
 
-- European Social Survey
+12.01.2023: **European Social Survey**, Welle 9, Deutschland
+
+  - Skript: [scripts/2023-01-12_ess_datenaufbereitung.R](scripts/2023-01-12_ess_datenaufbereitung.R)
