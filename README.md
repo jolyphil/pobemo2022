@@ -2,6 +2,14 @@
 
 ## Rohdaten
 
+**Bundeswahlleiter: Ergebnisse**, BTW 21
+
+  - Link: [`data_raw/bundeswahlleiter_kerg.csv`](data_raw/bundeswahlleiter_kerg.csv)
+
+**Bundeswahlleiter: Strukturdaten für die Wahlkreise**, BTW 21
+
+  - Link: [`data_raw/bundeswahlleiter_strukturdaten.csv`](data_raw/bundeswahlleiter_strukturdaten.csv)
+
 **European Social Survey (ESS)**, Welle 9, Deutschland
 
   - Link: [`data_raw/ESS9DE.dta`](data_raw/ESS9DE.dta)
@@ -37,6 +45,13 @@
 
   - Skript: [`scripts/2023-02-02_idea_datenaufbereitung.R`](scripts/2023-02-02_idea_datenaufbereitung.R)
   
+09.02.2023: **Bundeswahlleiter**, Wahlbeteiligung in den Wahlkreisen, BTW 21
+
+  - Skript: [`scripts/2023-02-09_bwl_datenaufbereitung.R`](scripts/2023-02-09_bwl_datenaufbereitung.R)
+  
+09.02.2023: **European Social Survey (ESS)**, Welle 9, Deutschland
+
+  - Skript: [`scripts/2023-02-09_ess_datenaufbereitung.R`](scripts/2023-02-09_ess_datenaufbereitung.R)
   
 ## Grafiken
 
